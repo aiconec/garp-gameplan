@@ -16,7 +16,7 @@
     <template #body-content>
       <div class="space-y-2">
         <p class="text-ink-gray-7 text-base">
-          Select the default page you want when you open Gameplan.
+          Select the default page you want when you open GARP Gameplan.
         </p>
 
         <RadioGroupRoot class="space-y-1" v-model="selectedHomePage">
