@@ -1,18 +1,18 @@
 app_name = "gameplan"
-app_title = "GARP Gameplan"
+app_title = "GARP Space"
 app_publisher = "AICONEC"
 app_description = "Team discussion and collaboration tool"
 app_email = "support@aiconec.com"
 app_license = "AGPLv3"
 app_icon_url = "/assets/gameplan/images/garp-gameplan-icon.svg"
-app_icon_title = "Gameplan"
+app_icon_title = "Space"
 app_icon_route = "/g"
 
 add_to_apps_screen = [
 	{
 		"name": "gameplan",
 		"logo": "/assets/gameplan/images/garp-gameplan-icon.svg",
-		"title": "Gameplan",
+		"title": "Space",
 		"route": "/g",
 		"has_permission": "gameplan.api.can_access_gameplan",
 	}
