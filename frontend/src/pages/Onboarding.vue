@@ -44,7 +44,7 @@
     </div>
     <div class="body-container pt-14">
       <div class="max-w-xl mx-auto">
-        <div class="text-2xl font-semibold text-ink-gray-8">Welcome to Gameplan</div>
+        <div class="text-2xl font-semibold text-ink-gray-8">Welcome to GARP Space</div>
 
         <div class="mt-2 pt-8 border-t">
           <h2 class="text-base font-medium text-ink-gray-8 mb-2">Let's create your first space</h2>
