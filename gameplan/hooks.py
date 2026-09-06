@@ -1,9 +1,12 @@
 app_name = "gameplan"
 app_title = "GARP Space"
 app_publisher = "AICONEC"
-app_description = "Team discussion and collaboration tool"
+app_description = "GARP Space — team discussions and project collaboration"
 app_email = "support@aiconec.com"
 app_license = "AGPLv3"
+# AGPL-3.0 section 13: this app is a modified version served over a network,
+# so its users are owed the corresponding source of THIS version.
+source_link = "https://github.com/aiconec/garp-gameplan"
 app_icon_url = "/assets/gameplan/images/garp-gameplan-icon.svg"
 app_icon_title = "Space"
 app_icon_route = "/g"
