@@ -57,16 +57,6 @@ let links = [
     icon: 'lucide-globe',
   },
   {
-    label: 'GitHub Repository',
-    url: 'https://github.com/aiconec/garp-gameplan',
-    icon: 'lucide-github',
-  },
-  {
-    label: 'Report an Issue',
-    url: 'https://github.com/aiconec/garp-gameplan/issues',
-    icon: 'lucide-bug',
-  },
-  {
     label: 'Contact Support',
     url: 'https://aiconec.com/support',
     icon: 'lucide-headset',
