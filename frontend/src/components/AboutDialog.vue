@@ -39,7 +39,7 @@
         </div>
         <hr class="border-t my-3 mx-2" />
         <p class="text-sm text-ink-gray-6 px-2 mt-2">
-          © AICONEC and contributors
+          © Frappe Technologies Pvt. Ltd., © AICONEC and contributors
         </p>
       </div>
     </template>
