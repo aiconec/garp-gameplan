@@ -18,9 +18,9 @@ Unread discussions
 {% endfor %}
 {% endif %}
 
-Open Gameplan: {{ open_gameplan_url }}
+Open GARP Spaces: {{ open_gameplan_url }}
 {% if preferences_url -%}
 Manage preferences: {{ preferences_url }}
 {% endif %}
 
-You are receiving this because email digests are enabled in Gameplan.
+You are receiving this because email digests are enabled in GARP Spaces.

@@ -270,7 +270,7 @@ function onRoleChange(user: UserRow, role: unknown) {
 function disableUser(user: UserRow) {
   dialog.danger({
     title: 'Disable user',
-    message: `${user.full_name} (${user.email}) will be disabled and can no longer sign in to Gameplan. You can re-enable them later from the Frappe admin.`,
+    message: `${user.full_name} (${user.email}) will be disabled and can no longer sign in to GARP Spaces. You can re-enable them later from the GARP admin.`,
     confirmLabel: 'Disable',
     onConfirm: () => {
       targetProfile.value = user.user_profile

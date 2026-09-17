@@ -34,7 +34,7 @@ class GPInvitation(Document):
 			print(f"Invite link for {self.email}: {invite_link}")
 			return
 
-		title = "Gameplan"
+		title = "GARP Spaces"
 		template = "gameplan_invitation"
 
 		frappe.sendmail(
@@ -59,7 +59,7 @@ class GPInvitation(Document):
 
 		frappe.sendmail(
 			recipients=self.email,
-			subject="You now have access to Gameplan",
+			subject="You now have access to GARP Spaces",
 			template="gameplan_access_granted",
 			args={"app_link": app_link},
 			now=True,

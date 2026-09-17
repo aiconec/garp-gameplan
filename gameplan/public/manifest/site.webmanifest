@@ -1,6 +1,8 @@
 {
   "display": "standalone",
-  "short_name": "Gameplan",
+  "name": "GARP Spaces",
+  "short_name": "GARP Spaces",
+  "description": "Team discussions and project collaboration in GARP.",
   "start_url": "/g",
   "icons": [
     {

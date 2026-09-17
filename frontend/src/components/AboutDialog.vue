@@ -4,7 +4,7 @@
       <div class="flex justify-center">
         <div class="flex flex-col items-center">
           <GameplanLogo class="mb-3 size-12" />
-          <h3 class="text-3xl-semibold text-ink-gray-9">Gameplan</h3>
+          <h3 class="text-3xl-semibold text-ink-gray-9">GARP Spaces</h3>
           <div class="flex items-center mt-1">
             <div class="text-base text-ink-gray-6">
               {{ appVersion.branch != 'main' ? appVersion.branch : '' }}
@@ -36,7 +36,7 @@
       </div>
       <hr class="border-t my-3 mx-2" />
       <p class="text-sm text-ink-gray-6 px-2 mt-2">
-        © Frappe Technologies Pvt. Ltd. and contributors
+        © Frappe Technologies Pvt. Ltd., © AICONEC and contributors
       </p>
     </div>
   </Dialog>
@@ -50,22 +50,17 @@ let show = defineModel<boolean>()
 let links = [
   {
     label: 'Website',
-    url: 'https://frappe.io/gameplan',
+    url: 'https://aiconec.com',
     icon: 'lucide-globe',
   },
   {
-    label: 'GitHub Repository',
-    url: 'https://github.com/frappe/gameplan',
-    icon: 'github',
-  },
-  {
-    label: 'Report an Issue',
-    url: 'https://github.com/frappe/gameplan/issues',
-    icon: 'lucide-bug',
+    label: 'Documentation',
+    url: 'https://garp.aiconec.com/docs/modules/projects',
+    icon: 'lucide-book-open',
   },
   {
     label: 'Contact Support',
-    url: 'https://support.frappe.io',
+    url: 'https://aiconec.com/support',
     icon: 'lucide-headset',
   },
 ]

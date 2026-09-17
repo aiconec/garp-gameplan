@@ -9,7 +9,7 @@
 			width="24"
 		>
 		{% endif %}
-		<span class="gp-email-digest__brand-name">Gameplan</span>
+		<span class="gp-email-digest__brand-name">GARP Spaces</span>
 	</div>
 	<div class="gp-email-digest__card">
 		<h2 class="gp-email-digest__title">Your {{ frequency | lower | e }} digest</h2>
@@ -129,12 +129,12 @@
 
 		{% if open_gameplan_url %}
 		<div class="gp-email-digest__cta-wrap">
-			<a class="gp-email-digest__cta" href="{{ open_gameplan_url | e }}">Open Gameplan</a>
+			<a class="gp-email-digest__cta" href="{{ open_gameplan_url | e }}">Open GARP Spaces</a>
 		</div>
 		{% endif %}
 
 		<div class="gp-email-digest__footer">
-			<div>You are receiving this because email digests are enabled in Gameplan.</div>
+			<div>You are receiving this because email digests are enabled in GARP Spaces.</div>
 			<div>Sent from {{ site_url | e }}</div>
 			{% if preferences_url %}
 			<a class="gp-email-digest__footer-link" href="{{ preferences_url | e }}">Manage preferences</a>

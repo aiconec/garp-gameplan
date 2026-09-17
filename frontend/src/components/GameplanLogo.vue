@@ -1,16 +1,17 @@
 <template>
-  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 44 44">
-    <path
-      fill="#F90"
-      d="M31.429 0H12.57C5.628 0 0 5.628 0 12.571V31.43C0 38.372 5.628 44 12.571 44H31.43C38.372 44 44 38.372 44 31.429V12.57C44 5.628 38.372 0 31.429 0Z"
-    />
-    <path
-      fill="#fff"
-      d="M12.571 28.082v-8.093H9.43v7.307a3.93 3.93 0 0 0 3.928 3.929h9.554v-3.143h-10.34Z"
-    />
-    <path
-      fill="#fff"
-      d="M30.643 12.76H9.429v3.143h22v12.179h-5.045l-3.457 4.305 2.42 1.996 2.53-3.159h2.766a3.93 3.93 0 0 0 3.928-3.928V16.689a3.93 3.93 0 0 0-3.928-3.929Z"
-    />
+  <!--
+    The GARP Spaces mark, matching the apps-screen tile and the PWA manifest
+    icons that garp_branding serves. This used to be Frappe's speech-bubble
+    glyph -- an earlier rebrand pass recoloured it rather than replacing it,
+    so the About dialog kept showing the vendor's mark under a GARP name.
+  -->
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40" fill="none">
+    <rect width="40" height="40" rx="10" fill="#4338CA" />
+    <g stroke="#fff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+      <rect x="11" y="11" width="7" height="7" rx="1.5" />
+      <rect x="22" y="11" width="7" height="7" rx="1.5" />
+      <rect x="11" y="22" width="7" height="7" rx="1.5" />
+      <rect x="22" y="22" width="7" height="7" rx="1.5" />
+    </g>
   </svg>
 </template>
