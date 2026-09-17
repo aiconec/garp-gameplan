@@ -8,7 +8,7 @@
         type="button"
         class="flex size-7 items-center justify-center rounded-[7px] transition focus-visible:ring-0 focus-visible:focus-ring"
         :class="open ? 'bg-surface-base shadow-sm' : 'hover:opacity-90'"
-        aria-label="Gameplan menu"
+        aria-label="GARP Spaces menu"
       >
         <GameplanLogo class="size-7 rounded-[7px]" />
       </button>

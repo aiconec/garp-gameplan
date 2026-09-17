@@ -147,7 +147,7 @@ def has_digest_items(digest):
 
 
 def get_digest_subject():
-	return f"Your {EMAIL_DIGEST_FREQUENCY} Gameplan digest"
+	return f"Your {EMAIL_DIGEST_FREQUENCY} GARP Spaces digest"
 
 
 def get_digest_email_context(profile, digest):

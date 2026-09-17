@@ -310,7 +310,7 @@ useEventListener(document, 'click', clearSelectionOnOutsideClick)
 
 usePageMeta(() => {
   return {
-    title: 'Customize Profile | Gameplan',
+    title: 'Customize Profile | GARP Spaces',
   }
 })
 

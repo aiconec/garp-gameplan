@@ -275,7 +275,7 @@ function onRoleChange(user: UserRow, role: unknown) {
 function disableUser(user: UserRow) {
   dialog.confirm({
     title: `Disable ${user.full_name}?`,
-    message: `${user.email} will no longer be able to sign in. You can enable the account again from the Frappe admin.`,
+    message: `${user.email} will no longer be able to sign in. You can enable the account again from the GARP admin.`,
     confirmLabel: 'Disable',
     onConfirm: () => {
       disableUserCall.submit({ user: user.name }).catch(() => {})
