@@ -12,7 +12,7 @@
     :description="
       showCreateCommunity
         ? 'Create a community to group related spaces, members, and discussions.'
-        : 'A Gameplan Admin creates communities. Ask for one, or for an invite to a private community.'
+        : 'A GARP Space admin creates communities. Ask for one, or for an invite to a private community.'
     "
   >
     <template #actions>

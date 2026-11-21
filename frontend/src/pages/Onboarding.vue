@@ -92,7 +92,7 @@
         <ScrollArea class="block min-h-0 flex-1" viewport-class="isolate bg-surface-base">
           <div class="body-container pt-14 pb-14">
             <div class="max-w-xl mx-auto">
-              <div class="text-3xl-semibold text-ink-gray-8">Welcome to Gameplan</div>
+              <div class="text-3xl-semibold text-ink-gray-8">Welcome to GARP Space</div>
 
               <div class="mt-2 pt-8 border-t">
                 <h2 class="text-base-medium text-ink-gray-8 mb-2">Name your community</h2>
@@ -278,7 +278,7 @@ const onboarding = useCall<OnboardingResult, OnboardingParams>({
 
 // The request's own failure, as a sentence. Invalid emails show under the email box.
 const errorMessage = computed(() =>
-  onboarding.error ? errorText(onboarding.error, 'Could not set up Gameplan. Try again.') : '',
+  onboarding.error ? errorText(onboarding.error, 'Could not set up GARP Space. Try again.') : '',
 )
 
 function submit() {

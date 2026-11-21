@@ -4,7 +4,7 @@
       <div class="flex justify-center">
         <div class="flex flex-col items-center">
           <GameplanLogo class="mb-3 size-12" />
-          <h3 class="text-2xl-semibold text-ink-gray-9">Gameplan</h3>
+          <h3 class="text-2xl-semibold text-ink-gray-9">GARP Space</h3>
           <div class="flex items-center mt-1">
             <div class="text-base text-ink-gray-6">
               v{{ appVersion.version }}
@@ -42,7 +42,16 @@
       </div>
       <hr class="border-t my-3 mx-2" />
       <p class="text-sm text-ink-gray-6 px-2 mt-2">
-        © Frappe Technologies Pvt. Ltd. and contributors
+        <!-- Upstream copyright, licence and no-warranty notices live on the
+             licences page; this link is how the dialog displays them. -->
+        © AICONEC and contributors ·
+        <a
+          href="https://bizconnect.id/docs/licences"
+          target="_blank"
+          class="underline underline-offset-2 hover:text-ink-gray-8"
+        >
+          Licences
+        </a>
       </p>
     </div>
   </Dialog>
@@ -56,22 +65,12 @@ let show = defineModel<boolean>()
 let links = [
   {
     label: 'Website',
-    url: 'https://frappe.io/gameplan',
+    url: 'https://aiconec.com',
     icon: 'lucide-globe',
   },
   {
-    label: 'GitHub Repository',
-    url: 'https://github.com/frappe/gameplan',
-    icon: 'github',
-  },
-  {
-    label: 'Report an Issue',
-    url: 'https://github.com/frappe/gameplan/issues',
-    icon: 'lucide-bug',
-  },
-  {
     label: 'Contact Support',
-    url: 'https://support.frappe.io',
+    url: 'https://aiconec.com/support',
     icon: 'lucide-headset',
   },
 ]

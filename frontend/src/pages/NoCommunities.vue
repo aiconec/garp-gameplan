@@ -43,7 +43,7 @@ const description = computed(() => {
   }
   return canManageCommunities.value
     ? 'Create or unarchive a community so your team can start collaborating.'
-    : 'Ask a Gameplan Admin to create or unarchive a community so you can start collaborating.'
+    : 'Ask a GARP Space admin to create or unarchive a community so you can start collaborating.'
 })
 
 usePageMeta(() => {
