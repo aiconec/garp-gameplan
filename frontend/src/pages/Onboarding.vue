@@ -278,7 +278,7 @@ const onboarding = useCall<OnboardingResult, OnboardingParams>({
 
 // The request's own failure, as a sentence. Invalid emails show under the email box.
 const errorMessage = computed(() =>
-  onboarding.error ? errorText(onboarding.error, 'Could not set up Gameplan. Try again.') : '',
+  onboarding.error ? errorText(onboarding.error, 'Could not set up GARP Spaces. Try again.') : '',
 )
 
 function submit() {

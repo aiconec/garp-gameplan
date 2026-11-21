@@ -34,7 +34,7 @@
         class="mb-3"
         theme="amber"
         title="Couldn't save your draft"
-        description="Your changes are still on this page. Gameplan tries again as you edit."
+        description="Your changes are still on this page. GARP Spaces tries again as you edit."
         :primary-action="{ label: 'Retry', onClick: retrySave }"
       />
       <ErrorMessage v-else :message="errorMessage || scheduleWarning" />

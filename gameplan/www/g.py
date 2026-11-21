@@ -71,7 +71,7 @@ def require_app_access():
 		return
 
 	frappe.throw(
-		_("You do not have access to Gameplan. Ask an admin to invite you."),
+		_("You do not have access to GARP Spaces. Ask an admin to invite you."),
 		frappe.PermissionError,
 	)
 
